@@ -1,0 +1,41 @@
+/*body {
+	background-color:#FFF;
+
+}
+
+header{ 
+	width:960px; 
+	background-color:#0CC;
+	height:130px;
+
+}
+footer{
+	width:960px; 
+	height:35px; 
+	background-color:#0cc;
+	
+}*/
+
+/*lowres*/
+@media only screen and (max-width:568px) { 
+
+body {background: blue; }
+}
+
+/*med*/
+@media only screen and (min-width:569px) { 
+
+body {background: green; }
+}
+
+/*high*/
+@media only screen and (min-width:1366px) { 
+
+body {background: red; }
+
+header{ 
+	width:960px; 
+	background-color:#0CC;
+	height:130px;
+
+}
