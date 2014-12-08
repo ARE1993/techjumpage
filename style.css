@@ -1,41 +1,28 @@
-/*body {
-	background-color:#FFF;
+#master{
+margin: 0 auto;
+background-image: url("background.png");
+background-repeat: repeat-x;
+}
 
+body {
+height:100%;
 }
 
 header{ 
-	width:960px; 
+	width:100%; 
 	background-color:#0CC;
 	height:130px;
-
 }
+
+.info{
+background:#FFF;
+height:100%;
+width:150px;
+}
+
 footer{
-	width:960px; 
-	height:35px; 
+	width:100%; 
+	height:100%; 
 	background-color:#0cc;
 	
-}*/
-
-/*lowres*/
-@media only screen and (max-width:568px) { 
-
-body {background: blue; }
-}
-
-/*med*/
-@media only screen and (min-width:569px) { 
-
-body {background: green; }
-}
-
-/*high*/
-@media only screen and (min-width:1366px) { 
-
-body {background: red; }
-
-header{ 
-	width:960px; 
-	background-color:#0CC;
-	height:130px;
-
 }
